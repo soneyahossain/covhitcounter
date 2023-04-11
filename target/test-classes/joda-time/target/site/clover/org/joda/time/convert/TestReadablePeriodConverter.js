@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":149,"id":66383,"methods":[{"el":73,"sc":5,"sl":52},{"el":89,"sc":5,"sl":85},{"el":94,"sc":5,"sl":91},{"el":112,"sc":5,"sl":97},{"el":118,"sc":5,"sl":115},{"el":127,"sc":5,"sl":121},{"el":141,"sc":5,"sl":129},{"el":147,"sc":5,"sl":144}],"name":"TestReadablePeriodConverter","sl":42}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_2148":{"methods":[{"sl":129}],"name":"testSetInto_Object","pass":true,"statements":[{"sl":131},{"sl":132},{"sl":133},{"sl":134},{"sl":135},{"sl":136},{"sl":137},{"sl":138},{"sl":139},{"sl":140}]},"test_2386":{"methods":[{"sl":144}],"name":"testToString","pass":true,"statements":[{"sl":146}]},"test_2596":{"methods":[{"sl":97}],"name":"testSingleton","pass":true,"statements":[{"sl":99},{"sl":100},{"sl":101},{"sl":102},{"sl":104},{"sl":105},{"sl":106},{"sl":108},{"sl":109},{"sl":110},{"sl":111}]},"test_3640":{"methods":[{"sl":115}],"name":"testSupportedType","pass":true,"statements":[{"sl":117}]},"test_780":{"methods":[{"sl":121}],"name":"testGetPeriodType_Object","pass":true,"statements":[{"sl":123},{"sl":125}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [2596], [], [2596], [2596], [2596], [2596], [], [2596], [2596], [2596], [], [2596], [2596], [2596], [2596], [], [], [], [3640], [], [3640], [], [], [], [780], [], [780], [], [780], [], [], [], [2148], [], [2148], [2148], [2148], [2148], [2148], [2148], [2148], [2148], [2148], [2148], [], [], [], [2386], [], [2386], [], [], []]
